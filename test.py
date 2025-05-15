@@ -10,8 +10,9 @@ st.warning('Warning')
 st.error('error')
 exp=ZeroDivisionError("Trying to devide by zero")
 st.exception(exp)
+
 from PIL import Image
-img=Image.open(r"C:\Users\Amira\OneDrive\Pictures\Screenshots\Screenshot 2025-04-05 175357.png")
+img=Image.open(r"https://th.bing.com/th/id/OIP.OpswJwVFceXjSTwTY34dBAHaFj?cb=iwc2&rs=1&pid=ImgDetMain")
 st.image(img, width=800, caption='essai')
 if st.checkbox("show/hide"):
     st.text('showing the widget')
